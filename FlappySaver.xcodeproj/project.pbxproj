@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		212B52EE2393C1E20015CA9D /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 212B52ED2393C1E20015CA9D /* thumbnail.png */; };
+		212B52F22393EBA10015CA9D /* DefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B52F12393EBA10015CA9D /* DefaultsManager.swift */; };
+		212B52F62393EFA70015CA9D /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 212B52F52393EFA70015CA9D /* ConfigureSheet.xib */; };
+		212B52F82393F5BB0015CA9D /* ConfigureSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B52F72393F5BB0015CA9D /* ConfigureSheetController.swift */; };
+		2140373D2384613C00F3DE80 /* NodeGene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2140373C2384613C00F3DE80 /* NodeGene.swift */; };
+		2140373F2384615600F3DE80 /* ConnectionGene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2140373E2384615600F3DE80 /* ConnectionGene.swift */; };
+		214037402384615900F3DE80 /* ConnectionGene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2140373E2384615600F3DE80 /* ConnectionGene.swift */; };
+		214037412384615B00F3DE80 /* NodeGene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2140373C2384613C00F3DE80 /* NodeGene.swift */; };
+		214037432384623500F3DE80 /* Genome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214037422384623500F3DE80 /* Genome.swift */; };
+		214037452384658D00F3DE80 /* InnovationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214037442384658D00F3DE80 /* InnovationGenerator.swift */; };
+		2148A61E237DCB8B0030D84D /* FlappySaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A61D237DCB8B0030D84D /* FlappySaverView.swift */; };
+		2148A620237DCE340030D84D /* FlappyBirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A61F237DCE340030D84D /* FlappyBirdView.swift */; };
+		2148A624237DD0780030D84D /* FlappySaverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A623237DD0780030D84D /* FlappySaverScene.swift */; };
+		2148A626237DD2B30030D84D /* SKSceneExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A625237DD2B30030D84D /* SKSceneExtensions.swift */; };
+		2148A628237DE9F70030D84D /* flappy.png in Resources */ = {isa = PBXBuildFile; fileRef = 2148A627237DE9F70030D84D /* flappy.png */; };
+		2148A62A237DEA8D0030D84D /* SKTextureExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A629237DEA8D0030D84D /* SKTextureExtension.swift */; };
+		2148A62C237DEAB50030D84D /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A62B237DEAB50030D84D /* BundleExtension.swift */; };
+		2148A62E237DEDF30030D84D /* pipe.png in Resources */ = {isa = PBXBuildFile; fileRef = 2148A62D237DEDF30030D84D /* pipe.png */; };
+		2148A6642381540F0030D84D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A6632381540F0030D84D /* AppDelegate.swift */; };
+		2148A66C2381540F0030D84D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A66B2381540F0030D84D /* ViewController.swift */; };
+		2148A6712381540F0030D84D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2148A66F2381540F0030D84D /* Main.storyboard */; };
+		2148A6772381546F0030D84D /* flappy.png in Resources */ = {isa = PBXBuildFile; fileRef = 2148A627237DE9F70030D84D /* flappy.png */; };
+		2148A678238154720030D84D /* FlappySaverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A623237DD0780030D84D /* FlappySaverScene.swift */; };
+		2148A679238154750030D84D /* SKSceneExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A625237DD2B30030D84D /* SKSceneExtensions.swift */; };
+		2148A67A238154780030D84D /* pipe.png in Resources */ = {isa = PBXBuildFile; fileRef = 2148A62D237DEDF30030D84D /* pipe.png */; };
+		2148A67B2381547B0030D84D /* SKTextureExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A629237DEA8D0030D84D /* SKTextureExtension.swift */; };
+		2148A67C2381547E0030D84D /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A62B237DEAB50030D84D /* BundleExtension.swift */; };
+		2148A67E2381554A0030D84D /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 2148A67D2381554A0030D84D /* ground.png */; };
+		2148A67F2381554A0030D84D /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 2148A67D2381554A0030D84D /* ground.png */; };
+		2148A6812381776B0030D84D /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A6802381776B0030D84D /* Bird.swift */; };
+		2148A6822381776B0030D84D /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A6802381776B0030D84D /* Bird.swift */; };
+		2148A6842381782A0030D84D /* CollisionCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A6832381782A0030D84D /* CollisionCategories.swift */; };
+		2148A6852381782A0030D84D /* CollisionCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2148A6832381782A0030D84D /* CollisionCategories.swift */; };
+		2148A68723819B190030D84D /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2148A68623819B180030D84D /* background.png */; };
+		2148A68823819B190030D84D /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2148A68623819B180030D84D /* background.png */; };
+		216B0DAE238D98F000DFF446 /* Population.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B0DAD238D98F000DFF446 /* Population.swift */; };
+		216B0DAF238D98F000DFF446 /* Population.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B0DAD238D98F000DFF446 /* Population.swift */; };
+		216DE0E4238AF706001A15EE /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216DE0E3238AF706001A15EE /* Species.swift */; };
+		216DE0E5238AF706001A15EE /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216DE0E3238AF706001A15EE /* Species.swift */; };
+		21D1D2E12389CF8400751AEA /* Genome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214037422384623500F3DE80 /* Genome.swift */; };
+		21D1D2E22389CF8700751AEA /* InnovationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214037442384658D00F3DE80 /* InnovationGenerator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		212B52ED2393C1E20015CA9D /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		212B52F12393EBA10015CA9D /* DefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsManager.swift; sourceTree = "<group>"; };
+		212B52F52393EFA70015CA9D /* ConfigureSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfigureSheet.xib; sourceTree = "<group>"; };
+		212B52F72393F5BB0015CA9D /* ConfigureSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureSheetController.swift; sourceTree = "<group>"; };
+		2140373C2384613C00F3DE80 /* NodeGene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeGene.swift; sourceTree = "<group>"; };
+		2140373E2384615600F3DE80 /* ConnectionGene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionGene.swift; sourceTree = "<group>"; };
+		214037422384623500F3DE80 /* Genome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genome.swift; sourceTree = "<group>"; };
+		214037442384658D00F3DE80 /* InnovationGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnovationGenerator.swift; sourceTree = "<group>"; };
+		2148A610237DCB7B0030D84D /* FlappySaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappySaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		2148A617237DCB7B0030D84D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2148A61D237DCB8B0030D84D /* FlappySaverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappySaverView.swift; sourceTree = "<group>"; };
+		2148A61F237DCE340030D84D /* FlappyBirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyBirdView.swift; sourceTree = "<group>"; };
+		2148A623237DD0780030D84D /* FlappySaverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappySaverScene.swift; sourceTree = "<group>"; };
+		2148A625237DD2B30030D84D /* SKSceneExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKSceneExtensions.swift; sourceTree = "<group>"; };
+		2148A627237DE9F70030D84D /* flappy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flappy.png; sourceTree = "<group>"; };
+		2148A629237DEA8D0030D84D /* SKTextureExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKTextureExtension.swift; sourceTree = "<group>"; };
+		2148A62B237DEAB50030D84D /* BundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
+		2148A62D237DEDF30030D84D /* pipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe.png; sourceTree = "<group>"; };
+		2148A6612381540F0030D84D /* FlappyTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2148A6632381540F0030D84D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2148A66B2381540F0030D84D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2148A6702381540F0030D84D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2148A6722381540F0030D84D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2148A6732381540F0030D84D /* FlappyTester.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlappyTester.entitlements; sourceTree = "<group>"; };
+		2148A67D2381554A0030D84D /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground.png; sourceTree = "<group>"; };
+		2148A6802381776B0030D84D /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		2148A6832381782A0030D84D /* CollisionCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionCategories.swift; sourceTree = "<group>"; };
+		2148A68623819B180030D84D /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		216B0DAD238D98F000DFF446 /* Population.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Population.swift; sourceTree = "<group>"; };
+		216DE0E3238AF706001A15EE /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2148A60D237DCB7B0030D84D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2148A65E2381540F0030D84D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2148A606237DCB7B0030D84D = {
+			isa = PBXGroup;
+			children = (
+				2148A612237DCB7B0030D84D /* FlappySaver */,
+				2148A6622381540F0030D84D /* FlappyTester */,
+				2148A611237DCB7B0030D84D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2148A611237DCB7B0030D84D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2148A610237DCB7B0030D84D /* FlappySaver.saver */,
+				2148A6612381540F0030D84D /* FlappyTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2148A612237DCB7B0030D84D /* FlappySaver */ = {
+			isa = PBXGroup;
+			children = (
+				2140373C2384613C00F3DE80 /* NodeGene.swift */,
+				2140373E2384615600F3DE80 /* ConnectionGene.swift */,
+				214037422384623500F3DE80 /* Genome.swift */,
+				216DE0E3238AF706001A15EE /* Species.swift */,
+				214037442384658D00F3DE80 /* InnovationGenerator.swift */,
+				212B52F12393EBA10015CA9D /* DefaultsManager.swift */,
+				2148A68623819B180030D84D /* background.png */,
+				212B52F72393F5BB0015CA9D /* ConfigureSheetController.swift */,
+				212B52F52393EFA70015CA9D /* ConfigureSheet.xib */,
+				216B0DAD238D98F000DFF446 /* Population.swift */,
+				2148A67D2381554A0030D84D /* ground.png */,
+				2148A617237DCB7B0030D84D /* Info.plist */,
+				2148A61D237DCB8B0030D84D /* FlappySaverView.swift */,
+				2148A61F237DCE340030D84D /* FlappyBirdView.swift */,
+				2148A627237DE9F70030D84D /* flappy.png */,
+				2148A623237DD0780030D84D /* FlappySaverScene.swift */,
+				2148A625237DD2B30030D84D /* SKSceneExtensions.swift */,
+				212B52ED2393C1E20015CA9D /* thumbnail.png */,
+				2148A62D237DEDF30030D84D /* pipe.png */,
+				2148A629237DEA8D0030D84D /* SKTextureExtension.swift */,
+				2148A62B237DEAB50030D84D /* BundleExtension.swift */,
+				2148A6802381776B0030D84D /* Bird.swift */,
+				2148A6832381782A0030D84D /* CollisionCategories.swift */,
+			);
+			path = FlappySaver;
+			sourceTree = "<group>";
+		};
+		2148A6622381540F0030D84D /* FlappyTester */ = {
+			isa = PBXGroup;
+			children = (
+				2148A6632381540F0030D84D /* AppDelegate.swift */,
+				2148A66B2381540F0030D84D /* ViewController.swift */,
+				2148A66F2381540F0030D84D /* Main.storyboard */,
+				2148A6722381540F0030D84D /* Info.plist */,
+				2148A6732381540F0030D84D /* FlappyTester.entitlements */,
+			);
+			path = FlappyTester;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2148A60B237DCB7B0030D84D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2148A60F237DCB7B0030D84D /* FlappySaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2148A61A237DCB7B0030D84D /* Build configuration list for PBXNativeTarget "FlappySaver" */;
+			buildPhases = (
+				2148A60B237DCB7B0030D84D /* Headers */,
+				2148A60C237DCB7B0030D84D /* Sources */,
+				2148A60D237DCB7B0030D84D /* Frameworks */,
+				2148A60E237DCB7B0030D84D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlappySaver;
+			productName = FlappySaver;
+			productReference = 2148A610237DCB7B0030D84D /* FlappySaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2148A6602381540F0030D84D /* FlappyTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2148A6762381540F0030D84D /* Build configuration list for PBXNativeTarget "FlappyTester" */;
+			buildPhases = (
+				2148A65D2381540F0030D84D /* Sources */,
+				2148A65E2381540F0030D84D /* Frameworks */,
+				2148A65F2381540F0030D84D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlappyTester;
+			productName = FlappyTester;
+			productReference = 2148A6612381540F0030D84D /* FlappyTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2148A607237DCB7B0030D84D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Gertjan;
+				TargetAttributes = {
+					2148A60F237DCB7B0030D84D = {
+						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
+					};
+					2148A6602381540F0030D84D = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2148A60A237DCB7B0030D84D /* Build configuration list for PBXProject "FlappySaver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2148A606237DCB7B0030D84D;
+			productRefGroup = 2148A611237DCB7B0030D84D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2148A60F237DCB7B0030D84D /* FlappySaver */,
+				2148A6602381540F0030D84D /* FlappyTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2148A60E237DCB7B0030D84D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2148A67E2381554A0030D84D /* ground.png in Resources */,
+				2148A68723819B190030D84D /* background.png in Resources */,
+				212B52F62393EFA70015CA9D /* ConfigureSheet.xib in Resources */,
+				2148A628237DE9F70030D84D /* flappy.png in Resources */,
+				212B52EE2393C1E20015CA9D /* thumbnail.png in Resources */,
+				2148A62E237DEDF30030D84D /* pipe.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2148A65F2381540F0030D84D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2148A68823819B190030D84D /* background.png in Resources */,
+				2148A67A238154780030D84D /* pipe.png in Resources */,
+				2148A6712381540F0030D84D /* Main.storyboard in Resources */,
+				2148A6772381546F0030D84D /* flappy.png in Resources */,
+				2148A67F2381554A0030D84D /* ground.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2148A60C237DCB7B0030D84D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214037452384658D00F3DE80 /* InnovationGenerator.swift in Sources */,
+				2148A61E237DCB8B0030D84D /* FlappySaverView.swift in Sources */,
+				2148A6812381776B0030D84D /* Bird.swift in Sources */,
+				212B52F22393EBA10015CA9D /* DefaultsManager.swift in Sources */,
+				2148A624237DD0780030D84D /* FlappySaverScene.swift in Sources */,
+				2140373D2384613C00F3DE80 /* NodeGene.swift in Sources */,
+				2148A626237DD2B30030D84D /* SKSceneExtensions.swift in Sources */,
+				216DE0E4238AF706001A15EE /* Species.swift in Sources */,
+				212B52F82393F5BB0015CA9D /* ConfigureSheetController.swift in Sources */,
+				2148A62A237DEA8D0030D84D /* SKTextureExtension.swift in Sources */,
+				214037432384623500F3DE80 /* Genome.swift in Sources */,
+				2140373F2384615600F3DE80 /* ConnectionGene.swift in Sources */,
+				216B0DAE238D98F000DFF446 /* Population.swift in Sources */,
+				2148A620237DCE340030D84D /* FlappyBirdView.swift in Sources */,
+				2148A6842381782A0030D84D /* CollisionCategories.swift in Sources */,
+				2148A62C237DEAB50030D84D /* BundleExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2148A65D2381540F0030D84D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D1D2E22389CF8700751AEA /* InnovationGenerator.swift in Sources */,
+				2148A66C2381540F0030D84D /* ViewController.swift in Sources */,
+				2148A6822381776B0030D84D /* Bird.swift in Sources */,
+				214037412384615B00F3DE80 /* NodeGene.swift in Sources */,
+				2148A678238154720030D84D /* FlappySaverScene.swift in Sources */,
+				2148A679238154750030D84D /* SKSceneExtensions.swift in Sources */,
+				216DE0E5238AF706001A15EE /* Species.swift in Sources */,
+				2148A67B2381547B0030D84D /* SKTextureExtension.swift in Sources */,
+				21D1D2E12389CF8400751AEA /* Genome.swift in Sources */,
+				2148A6642381540F0030D84D /* AppDelegate.swift in Sources */,
+				216B0DAF238D98F000DFF446 /* Population.swift in Sources */,
+				2148A6852381782A0030D84D /* CollisionCategories.swift in Sources */,
+				2148A67C2381547E0030D84D /* BundleExtension.swift in Sources */,
+				214037402384615900F3DE80 /* ConnectionGene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2148A66F2381540F0030D84D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2148A6702381540F0030D84D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2148A618237DCB7B0030D84D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2148A619237DCB7B0030D84D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2148A61B237DCB7B0030D84D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FlappySaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = codes.maas.gertjan.FlappySaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		2148A61C237DCB7B0030D84D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FlappySaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = codes.maas.gertjan.FlappySaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		2148A6742381540F0030D84D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FlappyTester/FlappyTester.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FlappyTester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = codes.maas.gertjan.FlappyTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2148A6752381540F0030D84D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FlappyTester/FlappyTester.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FlappyTester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = codes.maas.gertjan.FlappyTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2148A60A237DCB7B0030D84D /* Build configuration list for PBXProject "FlappySaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2148A618237DCB7B0030D84D /* Debug */,
+				2148A619237DCB7B0030D84D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2148A61A237DCB7B0030D84D /* Build configuration list for PBXNativeTarget "FlappySaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2148A61B237DCB7B0030D84D /* Debug */,
+				2148A61C237DCB7B0030D84D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2148A6762381540F0030D84D /* Build configuration list for PBXNativeTarget "FlappyTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2148A6742381540F0030D84D /* Debug */,
+				2148A6752381540F0030D84D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2148A607237DCB7B0030D84D /* Project object */;
+}
