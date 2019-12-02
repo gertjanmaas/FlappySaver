@@ -46,6 +46,7 @@
 		216B0DAF238D98F000DFF446 /* Population.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B0DAD238D98F000DFF446 /* Population.swift */; };
 		216DE0E4238AF706001A15EE /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216DE0E3238AF706001A15EE /* Species.swift */; };
 		216DE0E5238AF706001A15EE /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216DE0E3238AF706001A15EE /* Species.swift */; };
+		21BF2D442394E62A00FB2621 /* DefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212B52F12393EBA10015CA9D /* DefaultsManager.swift */; };
 		21D1D2E12389CF8400751AEA /* Genome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214037422384623500F3DE80 /* Genome.swift */; };
 		21D1D2E22389CF8700751AEA /* InnovationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214037442384658D00F3DE80 /* InnovationGenerator.swift */; };
 /* End PBXBuildFile section */
@@ -310,6 +311,7 @@
 				2148A678238154720030D84D /* FlappySaverScene.swift in Sources */,
 				2148A679238154750030D84D /* SKSceneExtensions.swift in Sources */,
 				216DE0E5238AF706001A15EE /* Species.swift in Sources */,
+				21BF2D442394E62A00FB2621 /* DefaultsManager.swift in Sources */,
 				2148A67B2381547B0030D84D /* SKTextureExtension.swift in Sources */,
 				21D1D2E12389CF8400751AEA /* Genome.swift in Sources */,
 				2148A6642381540F0030D84D /* AppDelegate.swift in Sources */,
